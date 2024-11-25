@@ -13,13 +13,13 @@ async function main() {
       </picture>
       <button>
         <span data-add-productBtn='${product.name}' class="Btn" data-value=${product.id}>
-          <img src="/images/icon-add-to-cart.svg" alt="add to cart icon ${product.id}">
+          <img src="./images/icon-add-to-cart.svg" alt="add to cart icon ${product.id}">
           Add to Cart
         </span>
         <span data-product-quantityBtn class="secondBtn Btn d-none">
-          <img data-decrease-quantity data-decrease-name="${product.name}" src="/images/icon-decrement-quantity.svg" alt="decrement">
+          <img data-decrease-quantity data-decrease-name="${product.name}" src="./images/icon-decrement-quantity.svg" alt="decrement">
           <strong data-product-quantity>1</strong>
-          <img data-increase-quantity src="/images/icon-increment-quantity.svg" alt="increment">
+          <img data-increase-quantity src="./images/icon-increment-quantity.svg" alt="increment">
         </span>
       </button>
       <p>${product.category}</p>
