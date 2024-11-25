@@ -143,7 +143,7 @@ async function main() {
           </div>
           <img data-delete="${
             order.name
-          } " src="/images/icon-remove-item.svg" alt="remove ${
+          } " src="./images/icon-remove-item.svg" alt="remove ${
           order.name
         }">
         `;
