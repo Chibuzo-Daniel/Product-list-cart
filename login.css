@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url(/images/Free\ Photo\ _\ Top\ view\ over\ hotpot\ dishes.jpeg);
+    background-image:url(./images/Free\ Photo\ _\ Top\ view\ over\ hotpot\ dishes.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
