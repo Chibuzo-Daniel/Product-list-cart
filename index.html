@@ -1,76 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta name="description" content="Frontend Mentor | Product list with cart">
-  <meta name="author" content="Adewale Stephen">
-  <meta name="keywords" content="Adewale Stephen, Stephen, Project, Product list, Product list with cart"> -->
-  <!-- <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"> -->
-  <!-- <title>Product list with cart</title> -->
-  <link rel="stylesheet" href="./style.css">
-  <!-- Stylesheet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <section class="body d-flex" role="contentinfo">
-    <!-- All Products shows Here-->
-    <main data-main>
-      <!-- Header -->
-      <header>
-        <h1>Desserts</h1>
-      </header>
-      <!-- Dynamically Update Products -->
-    </main>
-    <!-- Cart(Updates Dynamically) -->
-    <section data-module class="cart">
-      <!-- Dynamically Update quantity of products selected -->
-      <h3>Your Cart (<span data-totalPicks>0</span>)</h3>
-      <div>
-        <!-- Cart(Empty State) -->
-        <div data-emptyCart class="empty d-flex">
-          <img src="./images/illustration-empty-cart.svg" alt="empty cart">
-          <p>Your added items will appear here</p>
-        </div>
-        <!-- Cart(Updates product once selected) -->
-        <div data-productSelected class="selections d-flex d-none">
-          <!-- Dynamically Add Selected Items -->
-          <div data-cartItems class="d-flex cartItems"></div>
-          <!-- Dynamically calculate the price of products selected -->
-          <div class="orderTotal">
-            <div>
-              <p>Order Total</p>
-              <h4 data-priceTotal>$00.00</h4>
-            </div>
-            <p class="delivery">
-              <img src="./images/icon-carbon-neutral.svg" alt="carbon neutral">
-              <span>This is a <strong>carbon-neutral</strong> delivery</span>
-            </p>
-            <button data-confirmOrder>Comfirm Order</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
+      <img src="./images/food-logo-removebg.png" alt="" class="food-logo">
+        <div class="container">
+            <div class="register-text">Register</div>
+            <div class="gap"><div class=" text-color">Full Name</div>
+            <input type="text" class="input content-width gap fullname" placeholder="Enter your full name" ></div>
+            <div class="gap"><div class="text-color">Username</div>
+            <input type="text" class="input content-width gap username" placeholder="Enter your username" ></div>
+            <div class="gap"><div class=" text-color">Phone Number</div>
+            <input type="tel" class="input content-width gap phone-number" placeholder="Enter your phone number" ></div>
+            <div class="Pas"><div class="text-color">Password</div>
+            <input type="password"  class="input content-width password" placeholder="Enter Your Password"></div>
+            <div class="Pas"><div class="text-color">Confirm Password</div>
+            <input type="password" class="input content-width confirm-password" placeholder="Re-enter your password" ></div>
+            
+            <!-- <div class="hr content-width">.</div> -->
 
-  <!-- Receipt -->
-  <dialog data-modal class="dialog">
-    <header>
-      <img src="./images/icon-order-confirmed.svg" alt="green checkmark" />
-      <h2>Order Confirmed</h2>
-      <p>We hope you enjoy your food!</p>
-    </header>
-    <div data-receipt class="productContainer d-flex"></div>
-    <div class="d-flex totalPrice">
-      <p>Order Total</p>
-      <h2 data-total>$00.00</h2>
-    </div>
-    <button data-reset type="button">Start New Order</button>
-  </dialog>
+            <a href="" class="content-width">
+                <button class="btn-register content-width">Register</button>
+            </a>
+               
+             
+            
 
-  <!-- javaScript (Functionality Here) -->
-  <script src="main.js"></script>
+            <div class="or text-color">Already have an account?</div>
+
+            <a href="login.html" class="content-width">
+                <button class="btn-sign content-width">Sign-in</button>
+            </a>
+                
+            
+           
+            <!-- <img src="/images/hd-rm.food.png" alt=""> -->
+        </div>
+        <script src="R&L.js"></script>
 </body>
-
 </html>

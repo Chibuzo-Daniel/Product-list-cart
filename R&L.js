@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function(){
             }
 
             alert("✅ Login Successful!");
-            window.location.href = "index.html";
+            window.location.href = "index2.html";
         });
     }
 });
