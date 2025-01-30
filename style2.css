@@ -58,9 +58,8 @@ body {
   position: relative;
 }
 main{
-  background-color: #F4EDEB;
+  background-color:#EBFBE0;
 }
-
 
 body{
   background-image:url(./images/Free\ Photo\ _\ Top\ view\ over\ hotpot\ dishes.jpeg);
@@ -94,7 +93,7 @@ main header {
   position: sticky;
   top: 0;
   padding: 1.5rem 0 1rem 0;
-  background-color: var(--Rose100);
+  background-color: #EBFBE0;
   z-index: 10;
 }
 h1 {
@@ -119,7 +118,7 @@ main article button {
   overflow: hidden;
   border-radius: 5rem;
   border: 1px solid var(--Rose400);
-  background-color: var(--Rose50);
+  background-color:var(--Rose100);
   display: flex;
   align-items: center;
 }
@@ -168,7 +167,7 @@ main article h4 span {
 .cart {
   width: 35%;
   height: fit-content;
-  background-color: var(--Rose50);
+  background-color: #EBFBE0;
   padding: 1rem;
   position: sticky;
   top: 1.5rem;
@@ -259,7 +258,7 @@ main article h4 span {
   border-radius: 1rem;
   border: none;
   z-index: 10;
-  background-color: var(--Rose50);
+  background-color: #EBFBE0;
 }
 .dialog header {
   margin: 0 0 0.75rem 0;
